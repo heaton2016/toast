@@ -1,0 +1,68 @@
+7.4810 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+8.7589 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0F1E6F10>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1CD02130>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7590 	EXP 	window1: recordFrameIntervals = False
+8.9247 	EXP 	window1: recordFrameIntervals = True
+9.0244 	WARNING 	t of last frame was 32.32ms (=1/30)
+9.1750 	WARNING 	t of last frame was 33.42ms (=1/29)
+9.3421 	EXP 	window1: recordFrameIntervals = False
+9.5234 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+9.5462 	EXP 	Created instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instruction', opacity=1.0, ori=0, pos=array([0. , 0.8]), rgb=array([255., 255., 255.]), text='指导语：\n现在你想要连接wifi', units='norm', win=Window(...), wrapWidth=1)
+9.5528 	EXP 	Created background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='background', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+9.5564 	EXP 	Created toast = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='toast', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.5, 0.2]), texRes=128, units='norm', win=Window(...))
+9.5730 	EXP 	Created Start = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Start', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='正式实验开始！\n\n\n按“空格键”继续。', units='norm', win=Window(...), wrapWidth=1)
+9.5945 	EXP 	Created scene = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='scene', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='现在你想播放音乐\n', units='norm', win=Window(...), wrapWidth=1)
+9.5961 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+9.5977 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+9.6249 	EXP 	text: autoDraw = True
+12.7766 	DATA 	Keypress: space
+12.8369 	EXP 	Imported ..\..\收集箱\toast study\conditions.xlsx as conditions, 4 conditions, 2 params
+12.8377 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+12.8383 	EXP 	New trial (rep=0, index=0): OrderedDict([('conditions', 3), ('image_file', 'D:\\收集箱\\图片\\三体\\三体.jpg')])
+13.0750 	EXP 	text: autoDraw = False
+13.0750 	EXP 	background: image = 'D:\\收集箱\\图片\\三体\\三体.jpg'
+13.0750 	EXP 	instruction: autoDraw = True
+14.8583 	EXP 	background: autoDraw = True
+15.8583 	EXP 	toast: autoDraw = True
+17.9258 	DATA 	Keypress: space
+17.9264 	EXP 	New trial (rep=0, index=1): OrderedDict([('conditions', 4), ('image_file', 'D:\\收集箱\\图片\\三体\\三体2.png')])
+18.0419 	EXP 	instruction: autoDraw = False
+18.0419 	EXP 	background: autoDraw = False
+18.0419 	EXP 	toast: autoDraw = False
+18.0419 	EXP 	background: image = 'D:\\收集箱\\图片\\三体\\三体2.png'
+18.0419 	EXP 	instruction: autoDraw = True
+19.9587 	EXP 	background: autoDraw = True
+20.9587 	EXP 	toast: autoDraw = True
+22.0095 	DATA 	Keypress: space
+22.0101 	EXP 	New trial (rep=0, index=2): OrderedDict([('conditions', 2), ('image_file', 'D:\\收集箱\\图片\\三体\\红岸基地.jpg')])
+22.1092 	EXP 	instruction: autoDraw = False
+22.1092 	EXP 	background: autoDraw = False
+22.1092 	EXP 	toast: autoDraw = False
+22.1092 	EXP 	background: image = 'D:\\收集箱\\图片\\三体\\红岸基地.jpg'
+22.1092 	EXP 	instruction: autoDraw = True
+24.0425 	EXP 	background: autoDraw = True
+25.0424 	EXP 	toast: autoDraw = True
+25.8929 	DATA 	Keypress: space
+25.8934 	EXP 	New trial (rep=0, index=3): OrderedDict([('conditions', 1), ('image_file', 'D:\\收集箱\\图片\\三体\\timg.jpg')])
+25.9593 	EXP 	instruction: autoDraw = False
+25.9593 	EXP 	background: autoDraw = False
+25.9593 	EXP 	toast: autoDraw = False
+25.9593 	EXP 	background: image = 'D:\\收集箱\\图片\\三体\\timg.jpg'
+25.9593 	EXP 	instruction: autoDraw = True
+27.9259 	EXP 	background: autoDraw = True
+28.9259 	EXP 	toast: autoDraw = True
+32.4603 	DATA 	Keypress: space
+32.4762 	EXP 	instruction: autoDraw = False
+32.4762 	EXP 	background: autoDraw = False
+32.4762 	EXP 	toast: autoDraw = False
+32.4762 	EXP 	Start: autoDraw = True
+34.2606 	DATA 	Keypress: space
+34.2612 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+34.2614 	EXP 	New trial (rep=0, index=0): None
+34.2763 	EXP 	Start: autoDraw = False
+34.2763 	EXP 	scene: autoDraw = True
+34.2763 	EXP 	image: autoDraw = True
+34.2763 	EXP 	image_2: autoDraw = True
+35.2764 	EXP 	scene: autoDraw = False
+35.2764 	EXP 	image_2: autoDraw = False
+38.6274 	DATA 	Keypress: space
+38.9359 	EXP 	window1: mouseVisible = True
