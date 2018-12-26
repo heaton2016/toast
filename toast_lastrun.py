@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0b13),
-    on 十二月 26, 2018, at 22:10
+    on 十二月 26, 2018, at 22:19
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -392,123 +392,101 @@ for thisComponent in TipComponents:
 # the Routine "Tip" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
-# set up handler to look after randomisation of conditions etc
-loop_2 = data.TrialHandler(nReps=1, method='random', 
-    extraInfo=expInfo, originPath=-1,
-    trialList=[None],
-    seed=None, name='loop_2')
-thisExp.addLoop(loop_2)  # add the loop to the experiment
-thisLoop_2 = loop_2.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisLoop_2.rgb)
-if thisLoop_2 != None:
-    for paramName in thisLoop_2:
-        exec('{} = thisLoop_2[paramName]'.format(paramName))
+# ------Prepare to start Routine "Formal"-------
+t = 0
+FormalClock.reset()  # clock
+frameN = -1
+continueRoutine = True
+# update component parameters for each repeat
+key_resp_3 = event.BuilderKeyResponse()
+# keep track of which components have finished
+FormalComponents = [scene, image, image_2, key_resp_3]
+for thisComponent in FormalComponents:
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
 
-for thisLoop_2 in loop_2:
-    currentLoop = loop_2
-    # abbreviate parameter names if possible (e.g. rgb = thisLoop_2.rgb)
-    if thisLoop_2 != None:
-        for paramName in thisLoop_2:
-            exec('{} = thisLoop_2[paramName]'.format(paramName))
+# -------Start Routine "Formal"-------
+while continueRoutine:
+    # get current time
+    t = FormalClock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
     
-    # ------Prepare to start Routine "Formal"-------
-    t = 0
-    FormalClock.reset()  # clock
-    frameN = -1
-    continueRoutine = True
-    # update component parameters for each repeat
-    key_resp_3 = event.BuilderKeyResponse()
-    # keep track of which components have finished
-    FormalComponents = [scene, image, image_2, key_resp_3]
+    # *scene* updates
+    if t >= 0.0 and scene.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        scene.tStart = t
+        scene.frameNStart = frameN  # exact frame index
+        scene.setAutoDraw(True)
+    
+    # *image* updates
+    if t >= 0.0 and image.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        image.tStart = t
+        image.frameNStart = frameN  # exact frame index
+        image.setAutoDraw(True)
+    
+    # *image_2* updates
+    if t >= 0.0 and image_2.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        image_2.tStart = t
+        image_2.frameNStart = frameN  # exact frame index
+        image_2.setAutoDraw(True)
+    frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+    if image_2.status == STARTED and t >= frameRemains:
+        image_2.setAutoDraw(False)
+    
+    # *key_resp_3* updates
+    if t >= 0.0 and key_resp_3.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        key_resp_3.tStart = t
+        key_resp_3.frameNStart = frameN  # exact frame index
+        key_resp_3.status = STARTED
+        # keyboard checking is just starting
+        win.callOnFlip(key_resp_3.clock.reset)  # t=0 on next screen flip
+        event.clearEvents(eventType='keyboard')
+    if key_resp_3.status == STARTED:
+        theseKeys = event.getKeys(keyList=['y', 'n', 'left', 'right', 'space'])
+        
+        # check for quit:
+        if "escape" in theseKeys:
+            endExpNow = True
+        if len(theseKeys) > 0:  # at least one key was pressed
+            key_resp_3.keys = theseKeys[-1]  # just the last key pressed
+            key_resp_3.rt = key_resp_3.clock.getTime()
+            # a response ends the routine
+            continueRoutine = False
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
     for thisComponent in FormalComponents:
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
     
-    # -------Start Routine "Formal"-------
-    while continueRoutine:
-        # get current time
-        t = FormalClock.getTime()
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *scene* updates
-        if t >= 0.0 and scene.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            scene.tStart = t
-            scene.frameNStart = frameN  # exact frame index
-            scene.setAutoDraw(True)
-        
-        # *image* updates
-        if t >= 0.0 and image.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            image.tStart = t
-            image.frameNStart = frameN  # exact frame index
-            image.setAutoDraw(True)
-        
-        # *image_2* updates
-        if t >= 0.0 and image_2.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            image_2.tStart = t
-            image_2.frameNStart = frameN  # exact frame index
-            image_2.setAutoDraw(True)
-        frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if image_2.status == STARTED and t >= frameRemains:
-            image_2.setAutoDraw(False)
-        
-        # *key_resp_3* updates
-        if t >= 0.0 and key_resp_3.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            key_resp_3.tStart = t
-            key_resp_3.frameNStart = frameN  # exact frame index
-            key_resp_3.status = STARTED
-            # keyboard checking is just starting
-            win.callOnFlip(key_resp_3.clock.reset)  # t=0 on next screen flip
-            event.clearEvents(eventType='keyboard')
-        if key_resp_3.status == STARTED:
-            theseKeys = event.getKeys(keyList=['y', 'n', 'left', 'right', 'space'])
-            
-            # check for quit:
-            if "escape" in theseKeys:
-                endExpNow = True
-            if len(theseKeys) > 0:  # at least one key was pressed
-                key_resp_3.keys = theseKeys[-1]  # just the last key pressed
-                key_resp_3.rt = key_resp_3.clock.getTime()
-                # a response ends the routine
-                continueRoutine = False
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in FormalComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # check for quit (the Esc key)
-        if endExpNow or event.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
+    # check for quit (the Esc key)
+    if endExpNow or event.getKeys(keyList=["escape"]):
+        core.quit()
     
-    # -------Ending Routine "Formal"-------
-    for thisComponent in FormalComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    # check responses
-    if key_resp_3.keys in ['', [], None]:  # No response was made
-        key_resp_3.keys=None
-    loop_2.addData('key_resp_3.keys',key_resp_3.keys)
-    if key_resp_3.keys != None:  # we had a response
-        loop_2.addData('key_resp_3.rt', key_resp_3.rt)
-    # the Routine "Formal" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
-    thisExp.nextEntry()
-    
-# completed 1 repeats of 'loop_2'
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
 
+# -------Ending Routine "Formal"-------
+for thisComponent in FormalComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+# check responses
+if key_resp_3.keys in ['', [], None]:  # No response was made
+    key_resp_3.keys=None
+thisExp.addData('key_resp_3.keys',key_resp_3.keys)
+if key_resp_3.keys != None:  # we had a response
+    thisExp.addData('key_resp_3.rt', key_resp_3.rt)
+thisExp.nextEntry()
+# the Routine "Formal" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
 # these shouldn't be strictly necessary (should auto-save)
 thisExp.saveAsWideText(filename+'.csv')
 thisExp.saveAsPickle(filename)
