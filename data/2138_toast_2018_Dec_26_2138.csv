@@ -1,0 +1,6 @@
+conditions,image_file,loop_1.thisRepN,loop_1.thisTrialN,loop_1.thisN,loop_1.thisIndex,loop_2.thisRepN,loop_2.thisTrialN,loop_2.thisN,loop_2.thisIndex,key_response_2.keys,key_response_2.rt,key_resp_3.keys,key_resp_3.rt,participant,session,date,expName,psychopyVersion,frameRate,
+1,material\timg.jpg,0,0,0,0,,,,,space,0.5343589576077648,,,2138,001,2018_Dec_26_2138,toast,3.0.0b13,60.010291612836305,
+3,material\三体.jpg,0,1,1,2,,,,,space,0.48415087471948937,,,2138,001,2018_Dec_26_2138,toast,3.0.0b13,60.010291612836305,
+4,material\三体2.png,0,2,2,3,,,,,space,0.4341400556731969,,,2138,001,2018_Dec_26_2138,toast,3.0.0b13,60.010291612836305,
+2,material\红岸基地.jpg,0,3,3,1,,,,,space,0.33393888536375016,,,2138,001,2018_Dec_26_2138,toast,3.0.0b13,60.010291612836305,
+,,,,,,0,0,0,0,,,space,1.0179000321077183,2138,001,2018_Dec_26_2138,toast,3.0.0b13,60.010291612836305,
