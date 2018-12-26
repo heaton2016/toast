@@ -84,7 +84,7 @@ background = visual.ImageStim(
     texRes=128, interpolate=True, depth=-2.0)
 toast = visual.ImageStim(
     win=win, name='toast',
-    image='D:\\program files\\psychopy\\视觉搜索任务psychopy\\320.png', mask=None,
+    image='material\\320.png', mask=None,
     ori=0, pos=(0, -0.3), size=(0.5,0.2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
