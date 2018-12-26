@@ -81,7 +81,7 @@
         <Param name="name" updates="None" val="scene" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.8)" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
@@ -279,8 +279,8 @@
     <Routine name="Instruction"/>
     <LoopInitiator loopType="TrialHandler" name="loop_1">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('conditions', 1), ('image_file', 'D:\\收集箱\\图片\\三体\\timg.jpg')]), OrderedDict([('conditions', 2), ('image_file', 'D:\\收集箱\\图片\\三体\\红岸基地.jpg')]), OrderedDict([('conditions', 3), ('image_file', 'D:\\收集箱\\图片\\三体\\三体.jpg')]), OrderedDict([('conditions', 4), ('image_file', 'D:\\收集箱\\图片\\三体\\三体2.png')])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="..\..\收集箱\toast study\conditions.xlsx" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('conditions', 1), ('image_file', 'material\\timg.jpg')]), OrderedDict([('conditions', 2), ('image_file', 'material\\红岸基地.jpg')]), OrderedDict([('conditions', 3), ('image_file', 'material\\三体.jpg')]), OrderedDict([('conditions', 4), ('image_file', 'material\\三体2.png')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

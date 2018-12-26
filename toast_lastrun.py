@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0b13),
-    on 十二月 26, 2018, at 00:41
+    on 十二月 26, 2018, at 21:38
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -210,7 +210,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 loop_1 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('..\\..\\收集箱\\toast study\\conditions.xlsx'),
+    trialList=data.importConditions('conditions.xlsx'),
     seed=None, name='loop_1')
 thisExp.addLoop(loop_1)  # add the loop to the experiment
 thisLoop_1 = loop_1.trialList[0]  # so we can initialise stimuli with some values
