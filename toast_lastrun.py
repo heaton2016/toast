@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0b13),
-    on 十二月 26, 2018, at 21:38
+    on 十二月 26, 2018, at 22:10
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -94,7 +94,7 @@ background = visual.ImageStim(
     texRes=128, interpolate=True, depth=-1.0)
 toast = visual.ImageStim(
     win=win, name='toast',
-    image='D:\\program files\\psychopy\\视觉搜索任务psychopy\\320.png', mask=None,
+    image='material\\320.png', mask=None,
     ori=0, pos=(0, -0.3), size=(0.5,0.2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -115,7 +115,7 @@ FormalClock = core.Clock()
 scene = visual.TextStim(win=win, name='scene',
     text='现在你想播放音乐\n',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0.8), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
